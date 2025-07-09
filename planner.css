@@ -1,0 +1,522 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  overflow-x: hidden;
+
+}
+
+.Homesection {
+  height: 100vh;
+  background-image: url("wedding-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(1) contrast(1)
+}
+
+.Homesection .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(20, 30, 50, 0.6);
+}
+
+.Homesection .content {
+
+  z-index: 1;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  color: white !important;
+  margin-left: 15px;
+  background: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff3366 !important;
+}
+.hovercol:hover{
+  color: #ff3366 !important;
+  transform: scale(1.1);
+  transition-duration: 1
+  s;
+}
+
+
+
+.subtitle {
+  font-size: 22px;
+
+  font-family: 'Playfair Display', serif;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 160px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  margin: -2%;
+  padding: 0%;
+
+
+}
+
+.description {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+  margin-top: 20px;
+
+}
+
+.Readmoresection {
+  height: 130vh;
+
+}
+
+.excl {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.heading1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 65px;
+
+}
+
+.button1 {
+  width: 180px;
+  height: 50px;
+}
+
+.text-muted1 {
+  font-size: 20px;
+}
+
+.custom-divider {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  border-top: 2px solid #d6d6d6;
+
+}
+
+.feature-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.feature-para {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.d-flex1 {
+  display: flex;
+}
+
+
+
+.FollowusSection {
+  height: 100vh;
+  background-image: url("wedding-bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-left: 150px;
+
+}
+
+/* .FollowusSection .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(20, 30, 50, 0.6);
+} */
+
+.FollowusSection .content {
+
+  z-index: 1;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.heading-small {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 1000;
+
+}
+
+.heading-large {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.follow-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #ff3366;
+}
+
+.follow-desc {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.VenuesSection {
+  min-height: 100vh;
+
+}
+
+.button11 {
+  width: 180px;
+  height: 50px;
+
+}
+
+.heading11 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 50px;
+
+}
+
+.excl1 {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-muted11 {
+  font-size: 20px;
+}
+
+.padding01 {
+  padding: 50px;
+}
+
+.padding02 {
+  padding: 50px;
+
+}
+
+
+.ServicesSection {
+  min-height: 100vh;
+  background-image: url("wedding-bg3.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-left: 150px;
+
+}
+
+/* .ServicesSection .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(20, 30, 50, 0.6);
+} */
+
+.ServicesSection .content {
+
+  z-index: 1;
+}
+
+.pad1 {
+  padding-bottom: 50px;
+}
+
+.button12 {
+  width: 300px;
+  height: 50px;
+}
+
+.a1 {
+  display: flex;
+  align-items: center;
+}
+
+.Biosection{
+  min-height: auto;
+} 
+.gallery-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.pad2{
+  padding: 50px;
+}
+.ContactusSection{
+  min-height: 100vh;
+  z-index: 5;
+}
+.style1{
+  background-color: #ff3366;
+  height: 100vh;
+}
+.input{
+  width: 100%;
+  height: 50px;
+  border: 1px solid lightgrey;
+  font-size: 20px;
+  
+}
+.textarea{
+  width: 100%;
+  height: 120px;
+  border: 1px solid lightgrey;
+  font-size: 20px;
+  
+}
+.button13 {
+  width: 100%;
+  height: 60px;
+}
+
+.footer{
+  min-height: 20vh;
+  z-index: 6;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+  #navbarNav {
+    background-color: white;
+
+  }
+
+  .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .title {
+    font-size: 120px;
+
+  }
+
+  .description {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .heading1 {
+    font-size: 42px;
+  }
+
+  .button1 {
+    width: 100%;
+    height: 45px;
+    justify-content: left;
+  }
+
+  .d-flex1 {
+    display: flex;
+  }
+
+  #navbarNav {
+    background-color: white;
+
+  }
+
+  .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+  .FollowusSection {
+    padding: 50px;
+  }
+
+  .heading11 {
+    font-size: 40px;
+  }
+
+  .button11 {
+    width: 120%;
+    height: 50px;
+    justify-content: left;
+  }
+
+  .excl1 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .text-muted11 {
+    font-size: 14px;
+  }
+
+  .pad1 {
+    padding-bottom: 20px;
+  }
+
+
+  .a1 {
+    align-items: center;
+  }
+
+
+  /* .padding01{
+  padding: 50px;
+}
+.padding02{
+  padding: 10px;
+} */
+
+}
+
+
+@media screen and (max-width: 426px) and (min-width: 320px) {
+  .title {
+    font-size: 70px;
+
+  }
+
+  .description {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .heading1 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  .button1 {
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+
+  }
+
+  .excl {
+    text-align: center;
+  }
+
+  .text-muted1 {
+    text-align: center;
+  }
+
+  .d-flex1 {
+    display: block;
+    text-align: center;
+
+  }
+
+  #navbarNav {
+    background-color: white;
+
+  }
+
+  .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+  .FollowusSection {
+    padding-left: 10px;
+
+  }
+
+  .center1 {
+    justify-content: center;
+  }
+
+  .center2 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .heading11 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  .button11 {
+    width: 100%;
+    height: 40px;
+
+  }
+
+  .center3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .excl1 {
+    text-align: center;
+  }
+
+  .text-muted11 {
+    text-align: center;
+  }
+
+  .center3 {
+    text-align: center;
+  }
+
+  .pad1 {
+    padding-bottom: 20px;
+  }
+}
