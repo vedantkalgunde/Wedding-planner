@@ -83,7 +83,7 @@ html {
 }
 
 .Readmoresection {
-  height: 130vh;
+  min-height: 130vh;
 
 }
 
@@ -136,7 +136,7 @@ html {
 
 
 .FollowusSection {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("wedding-bg2.jpg");
   background-size: cover;
   background-position: center;
